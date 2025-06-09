@@ -33,7 +33,7 @@ public class Homework_2 {
 	}
 
 
-	if (science < 35 || maths < 35 || english < 35 ); {
+	if (science < 35 || maths < 35 || english < 35 ) {
 		System.out.println("Failed due to low score in at least one subject.");
 	}
 	}
