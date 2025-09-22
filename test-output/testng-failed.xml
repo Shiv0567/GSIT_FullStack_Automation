@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [ExampleSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="loginEmail" value="edrfedrfed@gmail.com"/>
+  <parameter name="Email" value="dasdasdas@gmail.com"/>
+  <parameter name="loginPassword" value="userfdsname2"/>
+  <parameter name="logoutEmail" value="dasdasdas@gmail.com"/>
+  <parameter name="logoutPassword" value="Tester"/>
+  <parameter name="username" value="users9"/>
+  <listeners>
+    <listener class-name="listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.SubscriptionInHomePageTest">
+        <methods>
+          <include name="testSubscription"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SubscriptionInHomePageTest -->
+      <class name="tests.RegisterUserTest">
+        <methods>
+          <include name="testUserRegistrationFlow"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.RegisterUserTest -->
+      <class name="tests.LoginWithCorrectDetails">
+        <methods>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.LoginWithCorrectDetails -->
+      <class name="tests.SearchProductTest">
+        <methods>
+          <include name="testSearchProduct" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SearchProductTest -->
+      <class name="tests.ContactUsFormTest">
+        <methods>
+          <include name="testContactUs" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.ContactUsFormTest -->
+      <class name="tests.RegisterWithExistingTest">
+        <methods>
+          <include name="testWithExistingMail" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.RegisterWithExistingTest -->
+      <class name="tests.LoginWithIncorrectDetails">
+        <methods>
+          <include name="testLoginWithIncorrectdData" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.LoginWithIncorrectDetails -->
+      <class name="tests.VerifyTestCaseTest">
+        <methods>
+          <include name="testTestCases"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.VerifyTestCaseTest -->
+      <class name="tests.LogoutTest$logoutUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logoutTest" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.LogoutTest$logoutUserTest -->
+      <class name="tests.AllProductDetails">
+        <methods>
+          <include name="testProductTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.AllProductDetails -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ExampleSuite] -->

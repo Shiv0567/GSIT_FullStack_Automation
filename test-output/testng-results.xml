@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="0" failed="13" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-22T17:24:38 IST" name="ExampleSuite" finished-at="2025-09-22T17:25:31 IST" duration-ms="52522">
+    <groups>
+    </groups>
+    <test started-at="2025-09-22T17:24:38 IST" name="Test" finished-at="2025-09-22T17:25:31 IST" duration-ms="52522">
+      <class name="tests.SubscriptionInHomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.SubscriptionInHomePageTest@3276732]" started-at="2025-09-22T17:24:58 IST" name="setup" finished-at="2025-09-22T17:25:03 IST" duration-ms="5014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSubscription()[pri:0, instance:tests.SubscriptionInHomePageTest@3276732]" started-at="2025-09-22T17:25:03 IST" name="testSubscription" finished-at="2025-09-22T17:25:13 IST" duration-ms="10050" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Home Page to be visible, but it is not. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Home Page to be visible, but it is not. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.SubscriptionInHomePageTest.testSubscription(SubscriptionInHomePageTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SubscriptionInHomePageTest@3276732]" started-at="2025-09-22T17:25:13 IST" name="tearDown" finished-at="2025-09-22T17:25:13 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SubscriptionInHomePageTest -->
+      <class name="tests.ContactUsFormTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.ContactUsFormTest@1cd201a8]" started-at="2025-09-22T17:24:38 IST" name="setup" finished-at="2025-09-22T17:24:46 IST" duration-ms="7777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactUsFormTest@1cd201a8]" started-at="2025-09-22T17:24:46 IST" name="testContactUs" data-provider="contactusData" finished-at="2025-09-22T17:24:56 IST" duration-ms="10076" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shreyas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testtest56@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Regarding Service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Packing should be improved]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Home Page to be visible but it is not. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.ContactUsFormTest.testContactUs(ContactUsFormTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactUsFormTest@1cd201a8]" started-at="2025-09-22T17:24:56 IST" name="tearDown" finished-at="2025-09-22T17:25:01 IST" duration-ms="4462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.ContactUsFormTest@1cd201a8]" started-at="2025-09-22T17:25:01 IST" name="setup" finished-at="2025-09-22T17:25:05 IST" duration-ms="4090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactUsFormTest@1cd201a8]" started-at="2025-09-22T17:25:05 IST" name="testContactUs" data-provider="contactusData" finished-at="2025-09-22T17:25:15 IST" duration-ms="10069" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shivam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shivam@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PDelivery Delay]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Delivery was delayed by 3 days]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Home Page to be visible but it is not. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.ContactUsFormTest.testContactUs(ContactUsFormTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactUsFormTest@1cd201a8]" started-at="2025-09-22T17:25:15 IST" name="tearDown" finished-at="2025-09-22T17:25:17 IST" duration-ms="2228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.ContactUsFormTest@1cd201a8]" started-at="2025-09-22T17:25:17 IST" name="setup" finished-at="2025-09-22T17:25:20 IST" duration-ms="2668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactUsFormTest@1cd201a8]" started-at="2025-09-22T17:25:20 IST" name="testContactUs" data-provider="contactusData" finished-at="2025-09-22T17:25:30 IST" duration-ms="10069" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[teste]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[payment issue]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[payment failed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Home Page to be visible but it is not. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.ContactUsFormTest.testContactUs(ContactUsFormTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactUsFormTest@1cd201a8]" started-at="2025-09-22T17:25:30 IST" name="tearDown" finished-at="2025-09-22T17:25:31 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ContactUsFormTest -->
+      <class name="tests.LogoutTest$logoutUserTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.LogoutTest$logoutUserTest@1c9f0a20]" started-at="2025-09-22T17:24:38 IST" name="setup" finished-at="2025-09-22T17:24:46 IST" duration-ms="7694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logoutTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LogoutTest$logoutUserTest@1c9f0a20]" started-at="2025-09-22T17:24:46 IST" name="logoutTest" finished-at="2025-09-22T17:24:56 IST" duration-ms="10069" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasdasdas@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Home Page to be visible but it is not expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Home Page to be visible but it is not expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.LogoutTest$logoutUserTest.logoutTest(LogoutTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest$logoutUserTest@1c9f0a20]" started-at="2025-09-22T17:24:56 IST" name="tearDown" finished-at="2025-09-22T17:25:01 IST" duration-ms="4488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogoutTest$logoutUserTest -->
+      <class name="tests.RegisterWithExistingTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.RegisterWithExistingTest@55787112]" started-at="2025-09-22T17:24:38 IST" name="setup" finished-at="2025-09-22T17:24:46 IST" duration-ms="7697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testWithExistingMail(java.lang.String,java.lang.String)[pri:0, instance:tests.RegisterWithExistingTest@55787112]" started-at="2025-09-22T17:24:46 IST" name="testWithExistingMail" finished-at="2025-09-22T17:24:56 IST" duration-ms="10066" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[users9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dasdasdas@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Home Page to be visible but it is not expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Home Page to be visible but it is not expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.RegisterWithExistingTest.testWithExistingMail(RegisterWithExistingTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithExistingMail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterWithExistingTest@55787112]" started-at="2025-09-22T17:24:56 IST" name="tearDown" finished-at="2025-09-22T17:24:58 IST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterWithExistingTest -->
+      <class name="tests.LoginWithIncorrectDetails">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginWithIncorrectDetails@162be91c]" started-at="2025-09-22T17:24:38 IST" name="setup" finished-at="2025-09-22T17:24:46 IST" duration-ms="7306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithIncorrectdData(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginWithIncorrectDetails@162be91c]" started-at="2025-09-22T17:24:46 IST" name="testLoginWithIncorrectdData" finished-at="2025-09-22T17:24:56 IST" duration-ms="10079" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edrfedrfed@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[userfdsname2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Home Page to be visible but it is not expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Home Page to be visible but it is not expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.LoginWithIncorrectDetails.testLoginWithIncorrectdData(LoginWithIncorrectDetails.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithIncorrectdData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginWithIncorrectDetails@162be91c]" started-at="2025-09-22T17:24:56 IST" name="tearDown" finished-at="2025-09-22T17:24:57 IST" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginWithIncorrectDetails -->
+      <class name="tests.VerifyTestCaseTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.VerifyTestCaseTest@7db82169]" started-at="2025-09-22T17:24:39 IST" name="setup" finished-at="2025-09-22T17:24:47 IST" duration-ms="7322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTestCases()[pri:0, instance:tests.VerifyTestCaseTest@7db82169]" started-at="2025-09-22T17:24:47 IST" name="testTestCases" finished-at="2025-09-22T17:24:57 IST" duration-ms="10047" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Home Page to be visible but it is not. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.VerifyTestCaseTest.testTestCases(VerifyTestCaseTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestCases -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.VerifyTestCaseTest@7db82169]" started-at="2025-09-22T17:24:57 IST" name="tearDown" finished-at="2025-09-22T17:24:58 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.VerifyTestCaseTest -->
+      <class name="tests.RegisterUserTest">
+        <test-method signature="testUserRegistrationFlow(java.util.Map)[pri:0, instance:tests.RegisterUserTest@58e6d4b8]" started-at="2025-09-22T17:24:39 IST" name="testUserRegistrationFlow" data-provider="signupData" finished-at="2025-09-22T17:24:39 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.RuntimeException: Failed to read Excel data]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel data
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Failed to read Excel data
+at utils.ExcelUtil.getData(ExcelUtil.java:35)
+at dataProvider.DataProviders.getSignUpData(DataProviders.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+... 12 more
+Caused by: java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:982)
+at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:308)
+at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:277)
+at utils.ExcelUtil.getData(ExcelUtil.java:29)
+... 18 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistrationFlow -->
+      </class> <!-- tests.RegisterUserTest -->
+      <class name="tests.SearchProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchProductTest@f74e835]" started-at="2025-09-22T17:24:58 IST" name="setup" finished-at="2025-09-22T17:25:02 IST" duration-ms="4324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:0, instance:tests.SearchProductTest@f74e835]" started-at="2025-09-22T17:25:02 IST" name="testSearchProduct" data-provider="searchProducts" finished-at="2025-09-22T17:25:12 IST" duration-ms="10092" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jeans]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Home Page to be visible but it is not. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.SearchProductTest.testSearchProduct(SearchProductTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProductTest@f74e835]" started-at="2025-09-22T17:25:12 IST" name="tearDown" finished-at="2025-09-22T17:25:13 IST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchProductTest@f74e835]" started-at="2025-09-22T17:25:13 IST" name="setup" finished-at="2025-09-22T17:25:17 IST" duration-ms="3761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:0, instance:tests.SearchProductTest@f74e835]" started-at="2025-09-22T17:25:17 IST" name="testSearchProduct" data-provider="searchProducts" finished-at="2025-09-22T17:25:27 IST" duration-ms="10034" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cotton]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Home Page to be visible but it is not. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.SearchProductTest.testSearchProduct(SearchProductTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProductTest@f74e835]" started-at="2025-09-22T17:25:27 IST" name="tearDown" finished-at="2025-09-22T17:25:27 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchProductTest -->
+      <class name="tests.AllProductDetails">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.AllProductDetails@1992eaf4]" started-at="2025-09-22T17:24:57 IST" name="setup" finished-at="2025-09-22T17:25:02 IST" duration-ms="4736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testProductTest()[pri:0, instance:tests.AllProductDetails@1992eaf4]" started-at="2025-09-22T17:25:02 IST" name="testProductTest" finished-at="2025-09-22T17:25:12 IST" duration-ms="10061" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Home Page to be visible but it is not. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.AllProductDetails.testProductTest(AllProductDetails.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AllProductDetails@1992eaf4]" started-at="2025-09-22T17:25:12 IST" name="tearDown" finished-at="2025-09-22T17:25:15 IST" duration-ms="2534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AllProductDetails -->
+      <class name="tests.LoginWithCorrectDetails">
+        <test-method signature="testLogin(java.util.Map)[pri:0, instance:tests.LoginWithCorrectDetails@659eef7]" started-at="2025-09-22T17:24:38 IST" name="testLogin" finished-at="2025-09-22T17:24:38 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void tests.LoginWithCorrectDetails.testLogin(java.util.Map) requires a @DataProvider named : loginData in class dataProvider.DataProviders]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void tests.LoginWithCorrectDetails.testLogin(java.util.Map) requires a @DataProvider named : loginData in class dataProvider.DataProviders
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:526)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:763)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- tests.LoginWithCorrectDetails -->
+    </test> <!-- Test -->
+  </suite> <!-- ExampleSuite -->
+</testng-results>

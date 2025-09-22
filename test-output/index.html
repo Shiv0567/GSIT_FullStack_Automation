@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 13 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ExampleSuite" class="navigator-link">
+              <span class="suite-name border-failed">ExampleSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ExampleSuite" class="navigator-link ">
+                    <span>C:\Users\ssunilva\Downloads\SeleniumFramework-main\SeleniumFramework-main\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ExampleSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ExampleSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ExampleSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ExampleSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ExampleSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ExampleSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 13 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ExampleSuite" class="hide-methods failed suite-ExampleSuite"> (hide)</a> <!-- hide-methods failed suite-ExampleSuite -->
+                      <a href="#" panel-name="suite-ExampleSuite" class="show-methods failed suite-ExampleSuite"> (show)</a> <!-- show-methods failed suite-ExampleSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-ExampleSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.LogoutTest$logoutUserTest" class="method navigator-link" hash-for-method="logoutTest(dasdasdas@gmail.com, Tester)">logoutTest(dasdasdas@gmail.com, Tester)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.ContactUsFormTest" class="method navigator-link" hash-for-method="testContactUs(shreyas, testtest56@gmail.com, Regarding Service, Packing should be improved, )">testContactUs(shreyas, testtest56@gmail.com, Regarding Service, Packing should be improved, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.ContactUsFormTest" class="method navigator-link" hash-for-method="testContactUs(shivam, shivam@gmail.com, PDelivery Delay, Delivery was delayed by 3 days, )">testContactUs(shivam, shivam@gmail.com, PDelivery Delay, Delivery was delayed by 3 days, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.ContactUsFormTest" class="method navigator-link" hash-for-method="testContactUs(teste, tester@gmail.com, payment issue, payment failed, )">testContactUs(teste, tester@gmail.com, payment issue, payment failed, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.LoginWithCorrectDetails" class="method navigator-link" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.LoginWithIncorrectDetails" class="method navigator-link" hash-for-method="testLoginWithIncorrectdData(edrfedrfed@gmail.com, userfdsname2)">testLoginWithIncorrectdData(edrfedrfed@gmail.com, userfdsname2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.AllProductDetails" class="method navigator-link" hash-for-method="testProductTest">testProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.SearchProductTest" class="method navigator-link" hash-for-method="testSearchProduct(Jeans)">testSearchProduct(Jeans)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.SearchProductTest" class="method navigator-link" hash-for-method="testSearchProduct(Cotton)">testSearchProduct(Cotton)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.SubscriptionInHomePageTest" class="method navigator-link" hash-for-method="testSubscription">testSubscription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.VerifyTestCaseTest" class="method navigator-link" hash-for-method="testTestCases">testTestCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.RegisterUserTest" class="method navigator-link" hash-for-method="testUserRegistrationFlow">testUserRegistrationFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleSuite" title="tests.RegisterWithExistingTest" class="method navigator-link" hash-for-method="testWithExistingMail(users9, dasdasdas@gmail.com)">testWithExistingMail(users9, dasdasdas@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ExampleSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ExampleSuite" class="panel ExampleSuite">
+          <div class="suite-ExampleSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.RegisterUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserRegistrationFlow">
+                  </a> <!-- testUserRegistrationFlow -->
+                  <span class="method-name">testUserRegistrationFlow</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel data
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Failed to read Excel data
+	at utils.ExcelUtil.getData(ExcelUtil.java:35)
+	at dataProvider.DataProviders.getSignUpData(DataProviders.java:35)
+	... 12 more
+Caused by: java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:982)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:308)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:277)
+	at utils.ExcelUtil.getData(ExcelUtil.java:29)
+	... 18 more
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ExampleSuite-class-failed -->
+          <div class="suite-ExampleSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SubscriptionInHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubscription">
+                  </a> <!-- testSubscription -->
+                  <span class="method-name">testSubscription</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Home Page to be visible, but it is not. expected [true] but found [false]
+	at tests.SubscriptionInHomePageTest.testSubscription(SubscriptionInHomePageTest.java:21)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ExampleSuite-class-failed -->
+          <div class="suite-ExampleSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.LoginWithCorrectDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin">
+                  </a> <!-- testLogin -->
+                  <span class="method-name">testLogin</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Method public void tests.LoginWithCorrectDetails.testLogin(java.util.Map) requires a @DataProvider named : loginData in class dataProvider.DataProviders
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ExampleSuite-class-failed -->
+          <div class="suite-ExampleSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SearchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct(Jeans)">
+                  </a> <!-- testSearchProduct(Jeans) -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">(Jeans)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+	at tests.SearchProductTest.testSearchProduct(SearchProductTest.java:26)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct(Cotton)">
+                  </a> <!-- testSearchProduct(Cotton) -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">(Cotton)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+	at tests.SearchProductTest.testSearchProduct(SearchProductTest.java:26)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ExampleSuite-class-failed -->
+          <div class="suite-ExampleSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ContactUsFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactUs(shreyas, testtest56@gmail.com, Regarding Service, Packing should be improved, )">
+                  </a> <!-- testContactUs(shreyas, testtest56@gmail.com, Regarding Service, Packing should be improved, ) -->
+                  <span class="method-name">testContactUs</span>
+                  <span class="parameters">(shreyas,testtest56@gmail.com,Regarding Service,Packing should be improved,)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+	at tests.ContactUsFormTest.testContactUs(ContactUsFormTest.java:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactUs(shivam, shivam@gmail.com, PDelivery Delay, Delivery was delayed by 3 days, )">
+                  </a> <!-- testContactUs(shivam, shivam@gmail.com, PDelivery Delay, Delivery was delayed by 3 days, ) -->
+                  <span class="method-name">testContactUs</span>
+                  <span class="parameters">(shivam,shivam@gmail.com,PDelivery Delay,Delivery was delayed by 3 days,)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+	at tests.ContactUsFormTest.testContactUs(ContactUsFormTest.java:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactUs(teste, tester@gmail.com, payment issue, payment failed, )">
+                  </a> <!-- testContactUs(teste, tester@gmail.com, payment issue, payment failed, ) -->
+                  <span class="method-name">testContactUs</span>
+                  <span class="parameters">(teste,tester@gmail.com,payment issue,payment failed,)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+	at tests.ContactUsFormTest.testContactUs(ContactUsFormTest.java:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ExampleSuite-class-failed -->
+          <div class="suite-ExampleSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.RegisterWithExistingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithExistingMail(users9, dasdasdas@gmail.com)">
+                  </a> <!-- testWithExistingMail(users9, dasdasdas@gmail.com) -->
+                  <span class="method-name">testWithExistingMail</span>
+                  <span class="parameters">(users9,dasdasdas@gmail.com)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Home Page to be visible but it is not expected [true] but found [false]
+	at tests.RegisterWithExistingTest.testWithExistingMail(RegisterWithExistingTest.java:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ExampleSuite-class-failed -->
+          <div class="suite-ExampleSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.LoginWithIncorrectDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithIncorrectdData(edrfedrfed@gmail.com, userfdsname2)">
+                  </a> <!-- testLoginWithIncorrectdData(edrfedrfed@gmail.com, userfdsname2) -->
+                  <span class="method-name">testLoginWithIncorrectdData</span>
+                  <span class="parameters">(edrfedrfed@gmail.com,userfdsname2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Home Page to be visible but it is not expected [true] but found [false]
+	at tests.LoginWithIncorrectDetails.testLoginWithIncorrectdData(LoginWithIncorrectDetails.java:30)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ExampleSuite-class-failed -->
+          <div class="suite-ExampleSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.VerifyTestCaseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestCases">
+                  </a> <!-- testTestCases -->
+                  <span class="method-name">testTestCases</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+	at tests.VerifyTestCaseTest.testTestCases(VerifyTestCaseTest.java:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ExampleSuite-class-failed -->
+          <div class="suite-ExampleSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.LogoutTest$logoutUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest(dasdasdas@gmail.com, Tester)">
+                  </a> <!-- logoutTest(dasdasdas@gmail.com, Tester) -->
+                  <span class="method-name">logoutTest</span>
+                  <span class="parameters">(dasdasdas@gmail.com,Tester)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Home Page to be visible but it is not expected [true] but found [false]
+	at tests.LogoutTest$logoutUserTest.logoutTest(LogoutTest.java:30)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ExampleSuite-class-failed -->
+          <div class="suite-ExampleSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.AllProductDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductTest">
+                  </a> <!-- testProductTest -->
+                  <span class="method-name">testProductTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Home Page to be visible but it is not. expected [true] but found [false]
+	at tests.AllProductDetails.testProductTest(AllProductDetails.java:26)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ExampleSuite-class-failed -->
+        </div> <!-- panel ExampleSuite -->
+        <div panel-name="test-xml-ExampleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ssunilva\Downloads\SeleniumFramework-main\SeleniumFramework-main\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;methods&quot; name=&quot;ExampleSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;loginEmail&quot; value=&quot;edrfedrfed@gmail.com&quot;/&gt;
+  &lt;parameter name=&quot;Email&quot; value=&quot;dasdasdas@gmail.com&quot;/&gt;
+  &lt;parameter name=&quot;loginPassword&quot; value=&quot;userfdsname2&quot;/&gt;
+  &lt;parameter name=&quot;logoutEmail&quot; value=&quot;dasdasdas@gmail.com&quot;/&gt;
+  &lt;parameter name=&quot;logoutPassword&quot; value=&quot;Tester&quot;/&gt;
+  &lt;parameter name=&quot;username&quot; value=&quot;users9&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.RegisterUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.LoginWithCorrectDetails&quot;/&gt;
+      &lt;class name=&quot;tests.LoginWithIncorrectDetails&quot;/&gt;
+      &lt;class name=&quot;tests.LogoutTest&quot;/&gt;
+      &lt;class name=&quot;tests.RegisterWithExistingTest&quot;/&gt;
+      &lt;class name=&quot;tests.ContactUsFormTest&quot;/&gt;
+      &lt;class name=&quot;tests.VerifyTestCaseTest&quot;/&gt;
+      &lt;class name=&quot;tests.AllProductDetails&quot;/&gt;
+      &lt;class name=&quot;tests.SearchProductTest&quot;/&gt;
+      &lt;class name=&quot;tests.SubscriptionInHomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- ExampleSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ExampleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ExampleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ExampleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ExampleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ExampleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ExampleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ExampleSuite');
+function tableData_ExampleSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSearchProduct')
+data.setCell(0, 2, 'tests.SearchProductTest')
+data.setCell(0, 3, 10092);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLoginWithIncorrectdData')
+data.setCell(1, 2, 'tests.LoginWithIncorrectDetails')
+data.setCell(1, 3, 10079);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testContactUs')
+data.setCell(2, 2, 'tests.ContactUsFormTest')
+data.setCell(2, 3, 10076);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logoutTest')
+data.setCell(3, 2, 'tests.LogoutTest$logoutUserTest')
+data.setCell(3, 3, 10069);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testContactUs')
+data.setCell(4, 2, 'tests.ContactUsFormTest')
+data.setCell(4, 3, 10069);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testContactUs')
+data.setCell(5, 2, 'tests.ContactUsFormTest')
+data.setCell(5, 3, 10069);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testWithExistingMail')
+data.setCell(6, 2, 'tests.RegisterWithExistingTest')
+data.setCell(6, 3, 10066);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testProductTest')
+data.setCell(7, 2, 'tests.AllProductDetails')
+data.setCell(7, 3, 10061);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSubscription')
+data.setCell(8, 2, 'tests.SubscriptionInHomePageTest')
+data.setCell(8, 3, 10050);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testTestCases')
+data.setCell(9, 2, 'tests.VerifyTestCaseTest')
+data.setCell(9, 3, 10047);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSearchProduct')
+data.setCell(10, 2, 'tests.SearchProductTest')
+data.setCell(10, 3, 10034);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLogin')
+data.setCell(11, 2, 'tests.LoginWithCorrectDetails')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testUserRegistrationFlow')
+data.setCell(12, 2, 'tests.RegisterUserTest')
+data.setCell(12, 3, 0);
+window.suiteTableData['ExampleSuite']= { tableData: data, tableDiv: 'times-div-ExampleSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-ExampleSuite">
+              </div> <!-- times-div-ExampleSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ExampleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ExampleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ExampleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ExampleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LogoutTest$logoutUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginWithIncorrectDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegisterWithExistingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyTestCaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">1075 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginWithIncorrectDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLoginWithIncorrectdData(edrfedrfed@gmail.com, userfdsname2)</span>
+                <span class="method-start">7307 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LogoutTest$logoutUserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logoutTest(dasdasdas@gmail.com, Tester)</span>
+                <span class="method-start">7694 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegisterWithExistingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWithExistingMail(users9, dasdasdas@gmail.com)</span>
+                <span class="method-start">7697 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testContactUs(shreyas, testtest56@gmail.com, Regarding Service, Packing should be improved, )</span>
+                <span class="method-start">7779 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyTestCaseTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTestCases</span>
+                <span class="method-start">8397 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginWithIncorrectDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17643 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LogoutTest$logoutUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18083 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18195 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegisterWithExistingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18215 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyTestCaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18622 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AllProductDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">19251 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">19289 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SubscriptionInHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">19390 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">22658 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchProduct(Jeans)</span>
+                <span class="method-start">23613 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AllProductDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testProductTest</span>
+                <span class="method-start">23987 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SubscriptionInHomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSubscription</span>
+                <span class="method-start">24405 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testContactUs(shivam, shivam@gmail.com, PDelivery Delay, Delivery was delayed by 3 days, )</span>
+                <span class="method-start">26748 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33944 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AllProductDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34243 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SubscriptionInHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34621 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">34859 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37007 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchProduct(Cotton)</span>
+                <span class="method-start">38620 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">39236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testContactUs(teste, tester@gmail.com, payment issue, payment failed, )</span>
+                <span class="method-start">41904 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48812 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52095 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
